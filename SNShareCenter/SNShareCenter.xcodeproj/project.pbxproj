@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360C825F1B16C18200C393E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C825E1B16C18200C393E2 /* main.m */; };
+		360C82621B16C18200C393E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82611B16C18200C393E2 /* AppDelegate.m */; };
+		360C82651B16C18300C393E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82641B16C18300C393E2 /* ViewController.m */; };
+		360C82681B16C18300C393E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360C82661B16C18300C393E2 /* Main.storyboard */; };
+		360C826A1B16C18400C393E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360C82691B16C18400C393E2 /* Images.xcassets */; };
+		360C826D1B16C18500C393E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 360C826B1B16C18500C393E2 /* LaunchScreen.xib */; };
+		360C82791B16C18500C393E2 /* SNShareCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82781B16C18500C393E2 /* SNShareCenterTests.m */; };
+		360C82851B16C1D400C393E2 /* SNShareCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82841B16C1D400C393E2 /* SNShareCenter.m */; };
+		360C82B21B16EC7500C393E2 /* SNQQShareClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82A31B16EC7500C393E2 /* SNQQShareClient.m */; };
+		360C82B31B16EC7500C393E2 /* SNWBShareClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82A61B16EC7500C393E2 /* SNWBShareClient.m */; };
+		360C82B41B16EC7500C393E2 /* SNWXShareClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82A81B16EC7500C393E2 /* SNWXShareClient.m */; };
+		360C82B51B16EC7500C393E2 /* SNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82AB1B16EC7500C393E2 /* SNClient.m */; };
+		360C82B61B16EC7500C393E2 /* SNClientOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82AD1B16EC7500C393E2 /* SNClientOAuth.m */; };
+		360C82B71B16EC7500C393E2 /* SNClientUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82AF1B16EC7500C393E2 /* SNClientUser.m */; };
+		360C82B81B16EC7500C393E2 /* SNShareMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 360C82B11B16EC7500C393E2 /* SNShareMessage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		360C82731B16C18500C393E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360C82511B16C18000C393E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360C82581B16C18100C393E2;
+			remoteInfo = SNShareCenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		360C82591B16C18100C393E2 /* SNShareCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNShareCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		360C825D1B16C18200C393E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360C825E1B16C18200C393E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		360C82601B16C18200C393E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		360C82611B16C18200C393E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		360C82631B16C18300C393E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		360C82641B16C18300C393E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		360C82671B16C18300C393E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		360C82691B16C18400C393E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		360C826C1B16C18500C393E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		360C82721B16C18500C393E2 /* SNShareCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNShareCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		360C82771B16C18500C393E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360C82781B16C18500C393E2 /* SNShareCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNShareCenterTests.m; sourceTree = "<group>"; };
+		360C82831B16C1D400C393E2 /* SNShareCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNShareCenter.h; sourceTree = "<group>"; };
+		360C82841B16C1D400C393E2 /* SNShareCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNShareCenter.m; sourceTree = "<group>"; };
+		360C82A21B16EC7500C393E2 /* SNQQShareClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNQQShareClient.h; sourceTree = "<group>"; };
+		360C82A31B16EC7500C393E2 /* SNQQShareClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNQQShareClient.m; sourceTree = "<group>"; };
+		360C82A41B16EC7500C393E2 /* SNShareClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNShareClient.h; sourceTree = "<group>"; };
+		360C82A51B16EC7500C393E2 /* SNWBShareClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNWBShareClient.h; sourceTree = "<group>"; };
+		360C82A61B16EC7500C393E2 /* SNWBShareClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNWBShareClient.m; sourceTree = "<group>"; };
+		360C82A71B16EC7500C393E2 /* SNWXShareClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNWXShareClient.h; sourceTree = "<group>"; };
+		360C82A81B16EC7500C393E2 /* SNWXShareClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNWXShareClient.m; sourceTree = "<group>"; };
+		360C82AA1B16EC7500C393E2 /* SNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNClient.h; sourceTree = "<group>"; };
+		360C82AB1B16EC7500C393E2 /* SNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNClient.m; sourceTree = "<group>"; };
+		360C82AC1B16EC7500C393E2 /* SNClientOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNClientOAuth.h; sourceTree = "<group>"; };
+		360C82AD1B16EC7500C393E2 /* SNClientOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNClientOAuth.m; sourceTree = "<group>"; };
+		360C82AE1B16EC7500C393E2 /* SNClientUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNClientUser.h; sourceTree = "<group>"; };
+		360C82AF1B16EC7500C393E2 /* SNClientUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNClientUser.m; sourceTree = "<group>"; };
+		360C82B01B16EC7500C393E2 /* SNShareMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNShareMessage.h; sourceTree = "<group>"; };
+		360C82B11B16EC7500C393E2 /* SNShareMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNShareMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		360C82561B16C18100C393E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C826F1B16C18500C393E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360C82501B16C17E00C393E2 = {
+			isa = PBXGroup;
+			children = (
+				360C825B1B16C18100C393E2 /* SNShareCenter */,
+				360C82751B16C18500C393E2 /* SNShareCenterTests */,
+				360C825A1B16C18100C393E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		360C825A1B16C18100C393E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				360C82591B16C18100C393E2 /* SNShareCenter.app */,
+				360C82721B16C18500C393E2 /* SNShareCenterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360C825B1B16C18100C393E2 /* SNShareCenter */ = {
+			isa = PBXGroup;
+			children = (
+				360C82821B16C1B400C393E2 /* SNShareCenter */,
+				360C82601B16C18200C393E2 /* AppDelegate.h */,
+				360C82611B16C18200C393E2 /* AppDelegate.m */,
+				360C82631B16C18300C393E2 /* ViewController.h */,
+				360C82641B16C18300C393E2 /* ViewController.m */,
+				360C82661B16C18300C393E2 /* Main.storyboard */,
+				360C82691B16C18400C393E2 /* Images.xcassets */,
+				360C826B1B16C18500C393E2 /* LaunchScreen.xib */,
+				360C825C1B16C18200C393E2 /* Supporting Files */,
+			);
+			path = SNShareCenter;
+			sourceTree = "<group>";
+		};
+		360C825C1B16C18200C393E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				360C825D1B16C18200C393E2 /* Info.plist */,
+				360C825E1B16C18200C393E2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		360C82751B16C18500C393E2 /* SNShareCenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				360C82781B16C18500C393E2 /* SNShareCenterTests.m */,
+				360C82761B16C18500C393E2 /* Supporting Files */,
+			);
+			path = SNShareCenterTests;
+			sourceTree = "<group>";
+		};
+		360C82761B16C18500C393E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				360C82771B16C18500C393E2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		360C82821B16C1B400C393E2 /* SNShareCenter */ = {
+			isa = PBXGroup;
+			children = (
+				360C82A11B16EC7500C393E2 /* Clients */,
+				360C82A91B16EC7500C393E2 /* Models */,
+				360C82831B16C1D400C393E2 /* SNShareCenter.h */,
+				360C82841B16C1D400C393E2 /* SNShareCenter.m */,
+			);
+			path = SNShareCenter;
+			sourceTree = "<group>";
+		};
+		360C82A11B16EC7500C393E2 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				360C82A41B16EC7500C393E2 /* SNShareClient.h */,
+				360C82A21B16EC7500C393E2 /* SNQQShareClient.h */,
+				360C82A31B16EC7500C393E2 /* SNQQShareClient.m */,
+				360C82A51B16EC7500C393E2 /* SNWBShareClient.h */,
+				360C82A61B16EC7500C393E2 /* SNWBShareClient.m */,
+				360C82A71B16EC7500C393E2 /* SNWXShareClient.h */,
+				360C82A81B16EC7500C393E2 /* SNWXShareClient.m */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		360C82A91B16EC7500C393E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				360C82AA1B16EC7500C393E2 /* SNClient.h */,
+				360C82AB1B16EC7500C393E2 /* SNClient.m */,
+				360C82AC1B16EC7500C393E2 /* SNClientOAuth.h */,
+				360C82AD1B16EC7500C393E2 /* SNClientOAuth.m */,
+				360C82AE1B16EC7500C393E2 /* SNClientUser.h */,
+				360C82AF1B16EC7500C393E2 /* SNClientUser.m */,
+				360C82B01B16EC7500C393E2 /* SNShareMessage.h */,
+				360C82B11B16EC7500C393E2 /* SNShareMessage.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		360C82581B16C18100C393E2 /* SNShareCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360C827C1B16C18500C393E2 /* Build configuration list for PBXNativeTarget "SNShareCenter" */;
+			buildPhases = (
+				360C82551B16C18100C393E2 /* Sources */,
+				360C82561B16C18100C393E2 /* Frameworks */,
+				360C82571B16C18100C393E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNShareCenter;
+			productName = SNShareCenter;
+			productReference = 360C82591B16C18100C393E2 /* SNShareCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		360C82711B16C18500C393E2 /* SNShareCenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360C827F1B16C18600C393E2 /* Build configuration list for PBXNativeTarget "SNShareCenterTests" */;
+			buildPhases = (
+				360C826E1B16C18500C393E2 /* Sources */,
+				360C826F1B16C18500C393E2 /* Frameworks */,
+				360C82701B16C18500C393E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360C82741B16C18500C393E2 /* PBXTargetDependency */,
+			);
+			name = SNShareCenterTests;
+			productName = SNShareCenterTests;
+			productReference = 360C82721B16C18500C393E2 /* SNShareCenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		360C82511B16C18000C393E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = yutao;
+				TargetAttributes = {
+					360C82581B16C18100C393E2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					360C82711B16C18500C393E2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 360C82581B16C18100C393E2;
+					};
+				};
+			};
+			buildConfigurationList = 360C82541B16C18000C393E2 /* Build configuration list for PBXProject "SNShareCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 360C82501B16C17E00C393E2;
+			productRefGroup = 360C825A1B16C18100C393E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				360C82581B16C18100C393E2 /* SNShareCenter */,
+				360C82711B16C18500C393E2 /* SNShareCenterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		360C82571B16C18100C393E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C82681B16C18300C393E2 /* Main.storyboard in Resources */,
+				360C826D1B16C18500C393E2 /* LaunchScreen.xib in Resources */,
+				360C826A1B16C18400C393E2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C82701B16C18500C393E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360C82551B16C18100C393E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C82651B16C18300C393E2 /* ViewController.m in Sources */,
+				360C82621B16C18200C393E2 /* AppDelegate.m in Sources */,
+				360C82B21B16EC7500C393E2 /* SNQQShareClient.m in Sources */,
+				360C825F1B16C18200C393E2 /* main.m in Sources */,
+				360C82B61B16EC7500C393E2 /* SNClientOAuth.m in Sources */,
+				360C82B31B16EC7500C393E2 /* SNWBShareClient.m in Sources */,
+				360C82B71B16EC7500C393E2 /* SNClientUser.m in Sources */,
+				360C82B51B16EC7500C393E2 /* SNClient.m in Sources */,
+				360C82B41B16EC7500C393E2 /* SNWXShareClient.m in Sources */,
+				360C82B81B16EC7500C393E2 /* SNShareMessage.m in Sources */,
+				360C82851B16C1D400C393E2 /* SNShareCenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C826E1B16C18500C393E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C82791B16C18500C393E2 /* SNShareCenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360C82741B16C18500C393E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360C82581B16C18100C393E2 /* SNShareCenter */;
+			targetProxy = 360C82731B16C18500C393E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		360C82661B16C18300C393E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360C82671B16C18300C393E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		360C826B1B16C18500C393E2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360C826C1B16C18500C393E2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		360C827A1B16C18500C393E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		360C827B1B16C18500C393E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		360C827D1B16C18500C393E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNShareCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		360C827E1B16C18500C393E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNShareCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		360C82801B16C18600C393E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SNShareCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNShareCenter.app/SNShareCenter";
+			};
+			name = Debug;
+		};
+		360C82811B16C18600C393E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SNShareCenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNShareCenter.app/SNShareCenter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360C82541B16C18000C393E2 /* Build configuration list for PBXProject "SNShareCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360C827A1B16C18500C393E2 /* Debug */,
+				360C827B1B16C18500C393E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360C827C1B16C18500C393E2 /* Build configuration list for PBXNativeTarget "SNShareCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360C827D1B16C18500C393E2 /* Debug */,
+				360C827E1B16C18500C393E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		360C827F1B16C18600C393E2 /* Build configuration list for PBXNativeTarget "SNShareCenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360C82801B16C18600C393E2 /* Debug */,
+				360C82811B16C18600C393E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 360C82511B16C18000C393E2 /* Project object */;
+}
